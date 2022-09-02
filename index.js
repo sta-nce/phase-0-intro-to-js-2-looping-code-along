@@ -30,10 +30,9 @@ function writeCards(name,message) {
 writeCards(["Guadalupe","Ollie","Aki"],"surprise");
 
 function countDown(number){
-    while(number>=0) {
-        console.log(number--);
+    for(let i = number; i >= 0; i--){
+    console.log(i)
     }
 }
-
 countDown(10);
 
